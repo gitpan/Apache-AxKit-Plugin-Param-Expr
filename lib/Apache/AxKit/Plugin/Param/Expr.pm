@@ -1,7 +1,7 @@
 package Apache::AxKit::Plugin::Param::Expr;
 use strict;
 
-our $VERSION = 0.1;
+our $VERSION = 0.2;
 use Apache::Constants qw(OK);
 use Apache::Request;
 
@@ -51,11 +51,11 @@ __END__
 
 =head1 NAME
 
-Apache::AxKit::Plugins::Param::Expr - Add arbitrary expressions as AxKit parameters
+Apache::AxKit::Plugin::Param::Expr - Add arbitrary expressions as AxKit parameters
 
 =head1 SYNOPSIS
 
-  AxAddPlugin Apache::AxKit::Plugins::Param::Expr
+  AxAddPlugin Apache::AxKit::Plugin::Param::Expr
   PerlAddVar AxParamExpr uri '$r->uri'
   PerlAddVar AxCacheParamExpr day 'time()/86400'
   PerlAddVar AxCacheExpr '$r->connection->user'

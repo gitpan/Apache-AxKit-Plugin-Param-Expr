@@ -1,0 +1,24 @@
+Revision history for Perl extension Session.pm.
+
+0.94
+        - fix /redirect
+        - fix login/logout sequence
+        - added sample login/logout XSP pages
+
+0.93
+        - several bug fixes
+        - added sample script for cleaning session dirs
+        - updated for AxKit 1.6.1 (you definitely need it!)
+
+0.92
+        - fixed timeout bug (sessions didn't time out)
+        - fixed AxAddPlugin bug (plugin usage didn't work)
+
+0.91
+        - fixed bug where inifinite redirection occurred when
+          URL sessions were deactivated
+        - changed configuration, made even easier to use
+        - fixed wrong package declarations
+
+0.9
+        - initial release
